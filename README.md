@@ -19,7 +19,7 @@ Financial advisors spend 60-70% of their time on administrative tasks instead of
 
 ## Key Features
 
-### 1. **Multi-Agent Orchestra tion**
+### 1. **Multi-Agent Orchestration**
 - **Document Chaser Agent**: Autonomously chases clients for missing documents
 - **LOA Chaser Agent**: Manages provider LOA requests with provider-specific intelligence
 - **Predictor Agent**: ML-powered delay prediction before problems occur
