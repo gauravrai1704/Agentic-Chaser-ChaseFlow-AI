@@ -14,7 +14,13 @@ class Settings(BaseSettings):
     # API
     API_HOST: str = "0.0.0.0"
     API_PORT: int = 8000
-    CORS_ORIGINS: list = ["http://localhost:3000", "http://localhost:5173"]
+    
+    CORS_ORIGINS: list = [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://agentic-chaser-chase-flow-ai.vercel.app",  
+    "https://agentic-chaser-chase-flow-8xfszg46z-gauravrai1704s-projects.vercel.app/" 
+    ]
     
     # Database
     DATABASE_URL: str = "sqlite:///./chaseflow.db"
